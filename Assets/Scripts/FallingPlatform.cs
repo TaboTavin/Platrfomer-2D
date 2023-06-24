@@ -8,6 +8,7 @@ public class FallingPlatform : MonoBehaviour
     private Rigidbody2D platformRigidbody;
     private BoxCollider2D boxCollider;
 
+
     private void Start()
     {
         platformRigidbody = GetComponent<Rigidbody2D>();
